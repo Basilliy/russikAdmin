@@ -5,5 +5,5 @@
  * and open the template in the editor.
  */
 $conn = new ConnectToDB();
-$conn->getKeyboard();
+$conn->sayHi();
 echo'hi';
