@@ -28,4 +28,12 @@ for($i = 0; $i < count($button); $i++){
 }
     
 }
+
+public function sayHi(){
+
+print_r("russik say hi");
+    
 }
+
+}
+
