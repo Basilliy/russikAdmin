@@ -6,6 +6,6 @@
  */
  include "ConnectToDB.php";
  
-$conn = new ConnectToDB();
+$conn = new ConnectToDB;
 $conn->sayHi();
 echo'hi';
