@@ -1,9 +1,9 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: russik
- * Date: 03.08.2016
- * Time: 17:16
+/* 
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
  */
-
+$conn = new ConnectToDB();
+$conn->getKeyboard();
 echo'hi';
