@@ -12,13 +12,8 @@ print_r("russik print");
 echo'<br/>';
 echo'<br/>';
 $i=0;
-while($i<1){
-  
-  print_r($c);
-  
-  echo'<br/>';
-  var_dump($c);
-  $i++;
+for($i = 0; $i < count($c); $i ++){
+echo'<button><?= $c[$i]?></button>';
 }
 ?>
 
