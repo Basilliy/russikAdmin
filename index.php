@@ -16,6 +16,6 @@ do{
   print_r($b);
   echo'<br/>';
   $i++;
-}while($b!=null)
+}while($i<3)
 ?>
 
