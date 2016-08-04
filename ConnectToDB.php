@@ -26,7 +26,7 @@ for($i = 0; $i < count($button); $i++){
     echo '<br>';
     print_r($button["$i"]);
 }
-    
+ return $button;    
 }
 
 public function sayHi(){
