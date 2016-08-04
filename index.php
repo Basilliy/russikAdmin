@@ -5,4 +5,17 @@ include "ConnectToDB.php";
 //$a->sayHi();
 $b = new ConnectToDB();
 $b->getKeyboard();
-//echo'hi';
+echo'<br/>';
+
+
+print_r("russik print");
+echo'<br/>';
+echo'<br/>';
+do{
+  $i=0;
+  print_r($b[$i]);
+  echo'<br/>';
+  $i++;
+}while($b!=null)
+?>
+
