@@ -22,10 +22,6 @@ $rows = $result->fetch_assoc();
 //$mystring = 'Generate Insult,Language,Homepage';
 $findme   = ',';
 $button = explode($findme, $rows['ButtonsName']);
-for($i = 0; $i < count($button); $i++){
-    echo '<br>';
-    print_r($button["$i"]);
-}
  return $button;    
 }
 
