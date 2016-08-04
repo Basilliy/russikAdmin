@@ -11,11 +11,12 @@ echo'<br/>';
 print_r("russik print");
 echo'<br/>';
 echo'<br/>';
-do{
-  $i=0;
+$i=0;
+while($i<1){
+  
   print_r($b);
   echo'<br/>';
   $i++;
-}while($i<3)
+}
 ?>
 
