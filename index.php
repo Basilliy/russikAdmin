@@ -15,7 +15,9 @@ $i=0;
 while($i<1){
   
   print_r($b);
+  
   echo'<br/>';
+  var_dump($b);
   $i++;
 }
 ?>
