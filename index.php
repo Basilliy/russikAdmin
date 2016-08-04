@@ -13,7 +13,7 @@ echo'<br/>';
 echo'<br/>';
 do{
   $i=0;
-  print_r($b[$i]);
+  print_r($b);
   echo'<br/>';
   $i++;
 }while($b!=null)
