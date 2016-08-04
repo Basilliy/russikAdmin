@@ -1,5 +1,5 @@
 <?php
-class adminPanel{
+class ConnectToDB{
     
 public function connectToDB(){
 $host = 'upperl.mysql.ukraine.com.ua'; // адрес сервера 
