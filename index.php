@@ -13,7 +13,7 @@ $c = $b->getKeyboard();
 //echo'<br/>';
 $i=0;
 for($i = 0; $i < count($c); $i ++){
-echo"<button><?= $c[$i]?></button>";
+echo"<button>$c[$i]</button>";
 }
 ?>
 
