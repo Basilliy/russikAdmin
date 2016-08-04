@@ -4,7 +4,7 @@ include "ConnectToDB.php";
 //$a = new A();
 //$a->sayHi();
 $b = new ConnectToDB();
-$b->getKeyboard();
+$c = $b->getKeyboard();
 echo'<br/>';
 
 
@@ -14,10 +14,10 @@ echo'<br/>';
 $i=0;
 while($i<1){
   
-  print_r($b);
+  print_r($c);
   
   echo'<br/>';
-  var_dump($b);
+  var_dump($c);
   $i++;
 }
 ?>
