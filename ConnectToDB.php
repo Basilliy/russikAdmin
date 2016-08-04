@@ -13,7 +13,7 @@ $link = mysqli_connect($host, $user, $password,$database)
 }
     
 public function getKeyboard(){
-$link = connectToDB();
+$link =$this->connectToDB();
 $query = 'SELECT * FROM menu';
 $result = $link->query($query) or die('Запрос не удался: ' . mysql_error());
 //print_r($result);
