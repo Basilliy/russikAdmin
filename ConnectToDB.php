@@ -1,6 +1,19 @@
 <?php
 class ConnectToDB{
     
+    public function __construct() {
+        if ($_POST['qwe']==586){
+           $b = $this->getKeyboard();
+        }
+        
+        $i=0;
+        for($i = 0; $i < count($b); $i ++){
+            echo"<button>$b[$i]</button";
+            }
+        
+    }
+    
+    
 public function connectToDB(){
 $host = 'upperl.mysql.ukraine.com.ua'; // адрес сервера 
 $database = 'upperl_vadik'; // имя базы данных
