@@ -2,9 +2,9 @@
 class ConnectToDB{
     
     public function __construct() {
-        if ($_POST['print']=='print'){
+    //    if ($_POST['print']=='print'){
            $b = $this->getKeyboard();
-        }
+     //   }
         
         $i=0;
         for($i = 0; $i < count($b); $i ++){
