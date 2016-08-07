@@ -34,7 +34,7 @@ for($i = 0; $i < count($c); $i ++){
 <?php
 }
 ?>
-     <form form name="2" method="post" action="ConnectToDB.php">
+     <form form name="2" method="get" action="<?=$_SERVER['PHP_SELF']?>">
      <input type=hidden name="print" value="print">
      <input type="button" value="Отобразить всё кнопки"><br />
      </form>
