@@ -30,9 +30,11 @@ $c = $b->getKeyboard();
 $i=0;
 for($i = 0; $i < count($c); $i ++){
     ?>
-<button class="new"><?=$c[$i]?></button>
+<!--<button class="new"></button>-->
 <?php
 }
 ?>
+
+
  </body>
 </html>
