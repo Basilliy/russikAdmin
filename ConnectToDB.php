@@ -2,7 +2,7 @@
 class ConnectToDB{
     
     public function __construct() {
-        if ($_POST['qwe']==586){
+        if ($_POST['print']=='print'){
            $b = $this->getKeyboard();
         }
         
