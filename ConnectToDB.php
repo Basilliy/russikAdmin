@@ -8,7 +8,7 @@ class ConnectToDB{
         
         $i=0;
         for($i = 0; $i < count($b); $i ++){
-            echo"<button>$b[$i]</button";
+            echo"<button>$b[$i]</button>";
             }
         
     }
