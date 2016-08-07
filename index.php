@@ -34,7 +34,10 @@ for($i = 0; $i < count($c); $i ++){
 <?php
 }
 ?>
-
+     <form form name="2" method="post" action="<?=$_SERVER['PHP_SELF']?>">
+     <input type=hidden name="print" value="print">
+     <input type="submit" value="Отобразить всё кнопки"><br />
+     </form>
 
  </body>
 </html>
